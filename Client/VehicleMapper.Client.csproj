@@ -1,0 +1,28 @@
+<Project Sdk="CitizenFX.Sdk.Client/0.2.3">
+    <PropertyGroup>
+      <LangVersion>default</LangVersion>
+      <Nullable>enable</Nullable>
+      <PackageId>VehicleMapper</PackageId>
+      <Title>VehicleMapper</Title>
+      <Authors>dnlib</Authors>
+      <Description>FiveM client script to map vehicle models to friendly names</Description>
+      <Copyright>Copyright 2022 (C) dnlib</Copyright>
+      <PackageProjectUrl>https://github.com/dnlib/VehicleMapper</PackageProjectUrl>
+      <PackageLicenseUrl>https://github.com/dnlib/VehicleMapper/LICENSE.md</PackageLicenseUrl>
+      <RepositoryUrl></RepositoryUrl>
+      <RepositoryType>GitHub</RepositoryType>
+      <PackageTags>fivem; client-fivem;</PackageTags>
+      <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+      <Company>dnlib</Company>
+      <Product>VehicleMapper</Product>
+      <AssemblyVersion>1.0.0</AssemblyVersion>
+      <FileVersion>1.0.0</FileVersion>
+      <NeutralLanguage>en-GB</NeutralLanguage>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Include="../Shared/**/*.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    </ItemGroup>
+</Project>
