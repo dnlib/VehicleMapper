@@ -3,7 +3,7 @@ A very simple FiveM script that allows you to easily map vehicle model names to 
 
 ## Editing
 
-Edit it, open `VehicleMapper.sln` in Visual Studio.
+Edit it, open `VehicleMapper.sln` in Visual Studio or Rider (if you're fancy 😎)
 
 ## Compilation
 
